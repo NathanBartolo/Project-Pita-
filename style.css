@@ -4,6 +4,8 @@ body, html {
     padding: 0;
     max-width: 100%;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background: #FFFFF3;
 }
 /* Default styling */
 * {
@@ -14,7 +16,7 @@ body, html {
 
 header {
     padding: 1rem 0;
-    background: #fff;
+    background: #FFFFF3;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
@@ -28,8 +30,8 @@ header {
 }
 
 .logo {
-    height: 40px;
-    width: auto;
+    height: 67px;
+    width: 151px;
 }
 
 nav {
@@ -49,8 +51,8 @@ nav {
 
 .nav-menu a {
     text-decoration: none;
-    color: #333;
-    font-weight: 500;
+    color: #B1261F;
+    font-weight: 300;
     transition: color 0.3s ease;
 }
 
@@ -63,14 +65,535 @@ nav {
     color: white;
     border: none;
     padding: 0.8rem 1.5rem;
-    border-radius: 4px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 1rem;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.order-btn:hover {
+    background: #c0392b;
+}
+
+.cta {
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #B1261F;
+    height: 629px;
+    width: 1197px;
+    position: relative;
+    border-radius: 40px;
+    margin-bottom: 150px;
+}
+.cta-box {
+    position: absolute;
+    bottom: 75px;
+    left: 100px;
+    max-width: 50%;
+    color: #FFFFF3;
+}
+.cta-box p{
+    font-size: 20px;
+    border-left: 5px solid white;
+    padding-left: 15px;
+}
+.cta-box h1{
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* prevent wrapping to the next line */
+    gap: 20px;
+    overflow-x: auto; /* enables horizontal scrolling if cards overflow */
+    padding: 20px 0;
+  }
+  
+  
+.menu-title {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu-title h1{
+    color: #B1261F;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.menu-title p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.full-menu-btn {
+    background: #B1261F;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 104px;
     cursor: pointer;
     transition: background 0.3s ease;
     margin-left: 1rem;
     white-space: nowrap;
 }
 
-.order-btn:hover {
-    background: #c0392b;
+.menu-box {
+    min-width: 300px; /* fixed width so multiple can sit side by side */
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+    flex-shrink: 0; /* prevents shrinking when space is tight */
+  }
+  
+  .menu-img-placeholder {
+    width: 100%;
+    height: 150px;
+    background-color: #B1261F;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .dish-name {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+  
+  .dish-price {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 5px 0;
+    color: #91989C;
+    margin-left: 15px;
+  }
+  
+  .dish-rating {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
+.gallery{
+    margin: 0 60px;
+    text-align: center;
 }
+.gallery-title {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 1196px;
+    margin-bottom: 30px;
+}
+
+.gallery-title h1 {
+    color: #B1261F;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+.images{
+    width: 386px;
+    height: 355px;
+    background-color: #B1261F;
+    border-radius: 20px;
+    flex-grow: 1;
+}
+
+.row1,.row3 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+
+}
+.row1{
+    margin-bottom: 17px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    margin-bottom: 17px;
+}
+
+.row2 .images:nth-child(1) {
+    flex-grow: 1;  /* makes the middle item wider */
+    flex-basis: 0;   /* ensures it can grow */
+  }
+
+.row2 .images:nth-child(3) {
+    flex-grow: 1;  /* makes the middle item wider */
+    flex-basis: 0;   /* ensures it can grow */
+  }
+
+
+.learn-more-btn {
+    background: #B1261F;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 104px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 1rem;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.cater-container {
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #B1261F;
+    height: 629px;
+    width: 1197px;
+    position: relative;
+    border-radius: 40px;
+    margin-bottom: 150px;
+}
+
+.cater-box {
+    position: absolute;
+    bottom: 75px;
+    left: 100px;
+    max-width: 55%;
+    color: #FFFFF3;
+}
+.cater-box p{
+    font-size: 20px;
+    border-left: 5px solid white;
+    padding-left: 15px;
+}
+.cater-box h1{
+    font-weight: bold;
+    font-size: 70px;
+}
+.cater-btn {
+    background: #FFFFF3;
+    color: #B1261F;
+    border: none;
+    padding: 0.8rem 50px;
+    border-radius: 104px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-top: 30px;   
+    font-size: 20px;
+}
+
+.review-title {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 1196px;
+    margin-bottom: 30px;
+}
+
+.review-title h1 {
+    color: #B1261F;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 100px;
+    margin: 0 auto;
+    gap: 12px;
+    margin-bottom: 150px;
+}
+
+.review-box {
+    background-color: #B1261F;
+    color: #FFFFF3;
+    border-radius: 40px;
+    margin: 12px;
+    padding: 40px;
+}
+
+.review1 {
+    margin-top: 70px;
+}
+
+.review-box p{
+    max-width:400px;
+}
+
+.review-person {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.review-rating, .review-label {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.review-text{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.faq-container {
+    margin: 0 120px;
+}
+.faq-title {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 1196px;
+    margin-bottom: 30px;
+}
+
+.faq-title h1 {
+    color: #B1261F;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.faq-questions h3{
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 0.5px solid #333;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.order-container {
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #B1261F;
+    height: 619px;
+    width: 1440px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.order-box {
+    position: absolute;
+    bottom: 70px;
+    left: 100px;
+    max-width: 47%;
+    color: #FFFFF3;
+}
+
+.order-box h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.whatsapp-btn {
+    background: #FFFFF3;
+    color: #B1261F;
+    border: none;
+    padding: 0.8rem 50px;
+    border-radius: 104px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-top: 30px;   
+    font-size: 20px;
+}
+
+.order-online-btn {
+    color: #FFFFF3;
+    background-color: transparent;  /* No background */
+    border: 0.5px solid #FFFFF3;  /* Border color */
+    padding: 0.8rem 50px;
+    border-radius: 104px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-top: 30px;   
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.location-title {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 1196px;
+    margin-bottom: 30px;
+}
+
+.location-title h1 {
+    color: #B1261F;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.location-box {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* Map box (left side) */
+.map-placeholder .map {
+    width: 800px;
+    height: 450px;
+    background-color: #B1261F; /* gray placeholder */
+    border-radius: 20px;
+}
+
+/* Right side text */
+.restaurant-info {
+    color: #B1261F;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-button {
+    background: #B1261F;
+    color: #FFFFF3;
+    border: none;
+    border-radius: 104px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: bold;
+    margin-top: 30px;   
+    font-size: 20px;
+    width: 190px;
+    height: 50px;
+}
+
+.restaurant-name {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.restaurant-reviews {
+    font-size: 15px;
+}
+
+.tags {
+    font-size: 15px;
+    margin-bottom: 190px;
+}
+
+.address {
+    font-size: 25px;
+}
+
+.contact-us {
+    margin-top: 80px;
+    background-color: #B1261F;
+    color: #FFFFF3;
+    height: 329px;
+    width: 1440px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.contact-us h1 {
+    font-size: 50px;
+    
+}
+.contact-us p {
+    font-size: 20px;
+}
+.contact-us button {
+    background: #FFFFF3;
+    color: #B1261F;
+    border: none;
+    padding: 0.8rem 50px;
+    border-radius: 104px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    white-space: nowrap;
+    font-weight: bold;  
+    font-size: 20px;
+}
+
+footer {
+    margin: 100px;
+    background-color: #B1261F;
+    border-radius: 40px;
+    padding: 75px;
+}
+.footer-content {
+    display: flex;
+    gap: 100px;
+    align-items: flex-start;
+    max-width: 1200px;
+    padding-right: 0 20px; /* Added padding to the sides */
+    padding-bottom: 100px;
+    border-bottom: 0.5px solid #FFFFF3; 
+}
+
+.list-1 ul,
+.list2 ul,
+.list3 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-1 li,
+.list2 li,
+.list3 li {
+  margin-bottom: 10px;
+}
+.list-1 a,
+.list2 a,
+.list3 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer-bottom{
+    margin-top: 20px;
+}
+.footer-bottom li {
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    
+  }
+
+  .footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 13px;
+  }
 
