@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact us.css">
 </head>
 <body>
     <header>
         <div class="header-container">
-            <img src="logo.png" alt="Restaurant Logo" class="logo">
+            <img src="Assets/Pita Logo.png" alt="Restaurant Logo" class="logo">
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact us.html">Contact Us</a></li>
                 </ul>
                 <button class="order-btn">Order Now</button>
             </nav>
@@ -23,75 +25,143 @@
     
     <main>
 
+        <section class="contact-us-container">
+            <div class="contact-us-title">
+              <h1>Contact Us</h1>
+              <p>We’d love to hear from you! Whether you’re curious about our menu, need help with a reservation, or just want to say hello, our team is here to help. Reach out to us, and we’ll make sure you feel right at home</p>
+            </div>
+          
+            <form class="contact-us-form">
+              <div class="form-group">
+                <input type="text" name="Name" id="contactName" placeholder="Name" required />
+              </div>
+              <div class="form-group">
+                <input type="tel" name="Phone" id="contactPhone" placeholder="Phone" required />
+              </div>
+              <div class="form-group">
+                <input type="email" name="E-mail" id="contactEmail" placeholder="E-mail" required />
+              </div>
+              <button type="submit" class="send-btn">Send</button>
+            </form>
+          </section>
+          
+
+        <section class="review-section">
+            <div class="review-title">
+                <h1>What Customers Are Saying About Us</h1>
+                <p>Over 200+ happy and fulfilled customers have left our doors satisfied and ready to order for more.</p>
+            </div>
+            <div class="review-container">
+                <div class="review1">
+                    <div class="review-box">
+                        <h2 class="review-person">Mariely Melencion</h2>
+                        <p class="rating">5.0 ★★★★★</p>
+                        <p class="review-label">Breakfast | Dine-In | Aed 1-50</p>
+                        <p class="review-text">We went there before 9am luckily they open just on time so we waited inside the restaurant. The place is small just like a small carinderia back home in the Philippines but they have tables outside as well. The music is great you can easily jive. Highly recommend the chicken sisig its really creamy and tasty. They have the best halo-halo so come visit pita restaurant.</p>
+                    </div>
+                    <div class="review-box">
+                        <h2 class="review-person">Sneaky Strings</h2>
+                        <p class="review-rating">5.0 ★★★★★</p>
+                        <p class="review-label">Delivery | Other | Aed 100-150</p>
+                        <p class="review-text">We love their cheesecake! So delicious, beats the cakes in hotel buffets. Very fluffy, yummy and fresh! Very good addition to any occasion or even when you are just craving for it.</p>
+                    </div>
+                </div>
+                <div class="review2"><div class="review-box">
+                    <h2 class="review-person">Marie Santiago</h2>
+                    <p class="rating">5.0 ★★★★★</p>
+                    <p class="review-label">Dinner | Dine-In | Aed 100-150</p>
+                    <p class="review-text">The food was absolutely delicious, just like home-cooked meals. The staff were very accommodating and made us feel welcome. A true taste of the Philippines!</p>
+                </div>
+                <div class="review-box">
+                    <h2 class="review-person">Mariely Melencion</h2>
+                    <p class="rating">5.0 ★★★★★</p>
+                    <p class="review-label">Breakfast | Dine-In | Aed 1-50</p>
+                    <p class="review-text">We went there before 9am luckily they open just on time so we waited inside the restaurant. The place is small just like a small carinderia back home in the Philippines but they have tables outside as well. The music is great you can easily jive. Highly recommend the chicken sisig its really creamy and tasty. They have the best halo-halo so come visit pita restaurant.</p>
+                </div></div>
+            </div>
+        </section>
+
         <section class="cater-container">
             <div class="cater-box">
                 <p>Get in Touch</p>
                 <h1>We Offer Catering Services</h1>
-                <button>Cater With Us</button>
+                <button class="cater-btn">Cater With Us</button>   
             </div>
         </section>
 
         <section class="order-container">
             <div class="order-box">
                 <h2>Order Directly from our website or via our WhatsApp to save money on fees, get faster service, and support local businesses.</h2>
-                <button class="whatsapp">WhatsApp</button>
-                <button>Order Online</button>
+                <button class="whatsapp-btn">WhatsApp</button>
+                <button class="order-online-btn">Order Online</button>
             </div>
         </section>
 
-        <section class="location">
-            <div class="location-container">
+        <section class="location-container">
+            <div class="location-title">
                 <h1>Where Can You Find Us?</h1>
+            </div>
+            <div class="location-box">
+                <!-- Left: Map Placeholder -->
+                <div class="map-placeholder">
+                    <!-- You can use an actual map later, or just a placeholder for now -->
+                    <div class="map"></div>
+                </div>
+            
+                <!-- Right: Restaurant Info -->
                 <div class="restaurant-info">
                     <h3 class="restaurant-name">Pita Restaurant</h3>
-                    
+            
                     <div class="rating-reviews">
-                        <span class="rating">4.5*****</span>
+                        <span class="rating">4.5 ★★★★★</span>
                         <span class="reviews">22 Google Reviews</span>
                     </div>
-                    
+            
                     <div class="tags">
-                        <span class="tag">ART: 140</span>
-                        <span class="tag">iPhone Restaurant</span>
+                        <span class="tag">AED 150</span>
+                        <span class="tag">Filipino Restaurant</span>
                     </div>
-                    
+            
                     <address class="address">
                         11 19A St Deira, Al Rigga, Dubai, near Union Metro Station
                     </address>
-                    
+            
                     <button class="review-button">Leave A Review</button>
                 </div>
+            </div>
+            
             </div>
         </section>
 
         <footer>
             <div class="footer-content">
-                <div class="footer-logo"><img src="" alt=""></div>
+                <div class="footer-logo"><img src="Assets/Pita Logo.png" alt=""></div>
+
+                <div class="list-1">
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about us.html">About Us</a></li>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="contact us.html">Contact Us</a></li>
+                    </ul>
+                  </div>              
+                <div class="list2">
+                    <ul>
+                        <li><a href="">WhatsApp</a></li>
+                        <li><a href="">E-Mail</a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="list3">
+                    <ul>
+                        <li><a href="">Our Newsletter</a></li>
+                        <li><a href="">Loyalty Program</a></li>
+                        <li><a href="">Menu</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="list-1">
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </div>
-            <div class="list2">
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </div>
-            <div class="list3">
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </div>
+            
             <div class="footer-bottom">
                 <div class="copyright-info">
                     <li><a href="">&copy; 2024 Rythimize. All rights reserved.</a></li>
