@@ -1,63 +1,34 @@
-.OurStoryTitle {
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 150px;
-    width: 1100px;
-    margin-bottom: 100px;
-}
-
-.OurStoryTitle h2{
-    color: #B1261F;
-    font-weight: bold;
-    font-size: 50px;
-    margin: 20px 0;
-    margin-bottom: 25px;
-}
-
-.StoryContainer {
+/* ===================================================
+About Us Section
+=================================================== */
+.our-story {
     display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.story-text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
     align-items: center;
-    justify-content: center;
-    gap: 40px;
-    margin-bottom: 60px;
-    flex-wrap: wrap;
-}
-
-.column {
-    flex: 1;
-    max-width: 600px;
-    
-}
-
-.StoryContainer.reverse {
-    flex-direction: row-reverse;
+    text-align: justify;
 }
 
 .placeholder {
-    width: 588px;
-    height: 366px;
-    background-color: #B1261F ;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #555;
-    font-weight: bold;
-    font-size: 18px;
+    width: 100%;
+    height: 350px;
+    background-color: var(--dark-red);
+    border-radius: 40px;
 }
 
-.column h2 {
+.story-text-container h2 {
     color: #B1261F;
     font-weight: bold;
     font-size: 50px;
-    margin: 20px 0;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
-.column p {
-    font-size: 20px;
-    width: 90%;
+.right-align h2 {
+    text-align: right;
 }
-
-
-

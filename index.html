@@ -9,7 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+    <!-- ==================== HEADER & NAVIGATION ==================== -->
     <header>
         <div class="header-container">
             <img src="Assets/Pita Logo.png" alt="Restaurant Logo" class="logo">
@@ -20,65 +23,70 @@
                     <li><a href="services.html">Services</a></li>
                     <li><a href="contact us.html">Contact Us</a></li>
                 </ul>
-                <button class="order-btn">Order Now</button>
+                <button class="default-btn-red order-btn"><a href="menu.html">Order Now</a></button>
             </nav>
         </div>
     </header>
 
-    <main>
-        <section class="cta">
+    <main class="main-container">
+
+        <!-- ==================== HERO BANNER ==================== -->
+        <section class="banner-container hero">
             <div class="cta-box">
                 <p>Authentic Pinoy Cuisine in Dubai</p>
                 <h1>The Place Where You Belong</h1>
             </div>
         </section>
+
+        <!-- ==================== MENU SECTION ==================== -->
         <section class="menu">
             <div class="menu-title">
                 <h1>View Our Bestsellers</h1>
                 <p>Discover the rich flavor of our cuisine</p>
-                <button class="full-menu-btn">View Our Full Menu</button>
+                <button class="default-btn-red full-menu-btn">View Our Full Menu</button>
             </div>
-            <div class="menu-container">
-                <div class="menu-box">
+            <div class="menu-items-container">
+                <div class="menu-item-box">
                     <div class="menu-img-placeholder"></div>
-                    <h2 class="dish-name">Beef Adobo</h2>
-                    <p class="dish-price">40 AED</p>
-                    <div class="dish-rating">★★★★★ 238</div>
-                  </div>
-                  <div class="menu-box">
+                    <h2 class="dish-name">Menu Item Name</h2>
+                    <p class="dish-price">50.00 AED</p>
+                    <div class="dish-rating">★★★★★ 100</div>
+                </div>
+                <div class="menu-item-box">
                     <div class="menu-img-placeholder"></div>
-                    <h2 class="dish-name">Beef Adobo</h2>
-                    <p class="dish-price">40 AED</p>
-                    <div class="dish-rating">★★★★★ 238</div>
-                  </div>
-                  <div class="menu-box">
+                    <h2 class="dish-name">Menu Item Name</h2>
+                    <p class="dish-price">50.00 AED</p>
+                    <div class="dish-rating">★★★★★ 100</div>
+                </div>
+                <div class="menu-item-box">
                     <div class="menu-img-placeholder"></div>
-                    <h2 class="dish-name">Beef Adobo</h2>
-                    <p class="dish-price">40 AED</p>
-                    <div class="dish-rating">★★★★★ 238</div>
-                  </div>
-                  <div class="menu-box">
+                    <h2 class="dish-name">Menu Item Name</h2>
+                    <p class="dish-price">50.00 AED</p>
+                    <div class="dish-rating">★★★★★ 100</div>
+                </div>
+                <div class="menu-item-box">
                     <div class="menu-img-placeholder"></div>
-                    <h2 class="dish-name">Beef Adobo</h2>
-                    <p class="dish-price">40 AED</p>
-                    <div class="dish-rating">★★★★★ 238</div>
-                  </div>
-                  <div class="menu-box">
+                    <h2 class="dish-name">Menu Item Name</h2>
+                    <p class="dish-price">50.00 AED</p>
+                    <div class="dish-rating">★★★★★ 100</div>
+                </div>
+                <div class="menu-item-box">
                     <div class="menu-img-placeholder"></div>
-                    <h2 class="dish-name">Beef Adobo</h2>
-                    <p class="dish-price">40 AED</p>
-                    <div class="dish-rating">★★★★★ 238</div>
-                  </div>
-                  
+                    <h2 class="dish-name">Menu Item Name</h2>
+                    <p class="dish-price">50.00 AED</p>
+                    <div class="dish-rating">★★★★★ 100</div>
+                </div>
             </div>
         </section>
+
+        <!-- ==================== GALLERY SECTION ==================== -->
         <section class="gallery">
             <div class="gallery-title">
                 <h1>Pita, Dubai</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt interdum molestie. Suspendisse posuere dolor at elementum dapibus. Proin ligula enim, facilisis at velit et, convallis suscipit erat. Integer turpis leo, pulvinar a fringilla vel, vestibulum at ex. Nullam mattis mollis sapien, a auctor ante egestas id</p>
             </div>
             <div class="gallery-container">
-                <div class="row1">  
+                <div class="row1">
                     <div class="images"></div>
                     <div class="images"></div>
                     <div class="images"></div>
@@ -94,70 +102,80 @@
                     <div class="images"></div>
                 </div>
             </div>
-            <button class="learn-more-btn">Learn More About Our Story</button>
+            <button class="default-btn-red learn-more-btn">Learn More About Our Story</button>
         </section>
 
-        <section class="cater-container">
+        <!-- ==================== CATERING BANNER ==================== -->
+        <section class="banner-container cater">
             <div class="cater-box">
                 <p>Get in Touch</p>
                 <h1>We Offer Catering Services</h1>
-                <button class="cater-btn">Cater With Us</button>
+                <button class="default-btn-white cater-btn">Cater With Us</button>
             </div>
         </section>
-        <section class="review-section">
+
+        <!-- ==================== REVIEWS SECTION ==================== -->
+        <section class="reviews">
             <div class="review-title">
                 <h1>What Customers Are Saying About Us</h1>
                 <p>Over 200+ happy and fulfilled customers have left our doors satisfied and ready to order for more.</p>
             </div>
             <div class="review-container">
-                <div class="review1">
+                <div class="column1">
                     <div class="review-box">
                         <h2 class="review-person">Mariely Melencion</h2>
                         <p class="rating">5.0 ★★★★★</p>
-                        <p class="review-label">Breakfast | Dine-In | Aed 1-50</p>
+                        <p class="review-label">Breakfast | Dine-In | AED 1-50</p>
                         <p class="review-text">We went there before 9am luckily they open just on time so we waited inside the restaurant. The place is small just like a small carinderia back home in the Philippines but they have tables outside as well. The music is great you can easily jive. Highly recommend the chicken sisig its really creamy and tasty. They have the best halo-halo so come visit pita restaurant.</p>
                     </div>
                     <div class="review-box">
                         <h2 class="review-person">Sneaky Strings</h2>
                         <p class="review-rating">5.0 ★★★★★</p>
-                        <p class="review-label">Delivery | Other | Aed 100-150</p>
+                        <p class="review-label">Delivery | Other | AED 100-150</p>
                         <p class="review-text">We love their cheesecake! So delicious, beats the cakes in hotel buffets. Very fluffy, yummy and fresh! Very good addition to any occasion or even when you are just craving for it.</p>
                     </div>
                 </div>
-                <div class="review2"><div class="review-box">
-                    <h2 class="review-person">Marie Santiago</h2>
-                    <p class="rating">5.0 ★★★★★</p>
-                    <p class="review-label">Dinner | Dine-In | Aed 100-150</p>
-                    <p class="review-text">The food was absolutely delicious, just like home-cooked meals. The staff were very accommodating and made us feel welcome. A true taste of the Philippines!</p>
+                <div class="column2">
+                    <div class="review-box">
+                        <h2 class="review-person">Marie Santiago</h2>
+                        <p class="rating">5.0 ★★★★★</p>
+                        <p class="review-label">Dinner | Dine-In | AED 100-150</p>
+                        <p class="review-text">The food was absolutely delicious, just like home-cooked meals. The staff were very accommodating and made us feel welcome. A true taste of the Philippines!</p>
+                    </div>
+                    <div class="review-box">
+                        <h2 class="review-person">Mariely Melencion</h2>
+                        <p class="rating">5.0 ★★★★★</p>
+                        <p class="review-label">Breakfast | Dine-In | AED 1-50</p>
+                        <p class="review-text">We went there before 9am luckily they open just on time so we waited inside the restaurant. The place is small just like a small carinderia back home in the Philippines but they have tables outside as well. The music is great you can easily jive. Highly recommend the chicken sisig its really creamy and tasty. They have the best halo-halo so come visit pita restaurant.</p>
+                    </div>
                 </div>
-                <div class="review-box">
-                    <h2 class="review-person">Mariely Melencion</h2>
-                    <p class="rating">5.0 ★★★★★</p>
-                    <p class="review-label">Breakfast | Dine-In | Aed 1-50</p>
-                    <p class="review-text">We went there before 9am luckily they open just on time so we waited inside the restaurant. The place is small just like a small carinderia back home in the Philippines but they have tables outside as well. The music is great you can easily jive. Highly recommend the chicken sisig its really creamy and tasty. They have the best halo-halo so come visit pita restaurant.</p>
-                </div></div>
             </div>
         </section>
-        <section class="faq-container">
+
+        <!-- ==================== FAQ SECTION ==================== -->
+        <section class="faq">
             <div class="faq-title">
-                <h1>Frequntly Asked Questions</h1>
+                <h1>Frequently Asked Questions</h1>
             </div>
             <div class="faq-questions">
-                <h3>What are You known for?</h3>
+                <h3>What are you known for?</h3>
                 <h3>What meals do you serve?</h3>
                 <h3>Do you offer delivery?</h3>
                 <h3>What areas do you serve</h3>
             </div>
         </section>
-        
-        <section class="order-container">
+
+        <!-- ==================== ORDER SECTION ==================== -->
+        <section class="order">
             <div class="order-box">
                 <h2>Order Directly from our website or via our WhatsApp to save money on fees, get faster service, and support local businesses.</h2>
-                <button class="whatsapp-btn">WhatsApp</button>
+                <button class="default-btn-white whatsapp-btn">WhatsApp</button>
                 <button class="order-online-btn">Order Online</button>
             </div>
         </section>
-        <section class="location-container">
+
+        <!-- ==================== LOCATION SECTION ==================== -->
+        <section class="location">
             <div class="location-title">
                 <h1>Where Can You Find Us?</h1>
             </div>
@@ -167,49 +185,46 @@
                     <!-- You can use an actual map later, or just a placeholder for now -->
                     <div class="map"></div>
                 </div>
-            
                 <!-- Right: Restaurant Info -->
                 <div class="restaurant-info">
                     <h3 class="restaurant-name">Pita Restaurant</h3>
-            
-                    <div class="rating-reviews">
-                        <span class="rating">4.5 ★★★★★</span>
-                        <span class="reviews">22 Google Reviews</span>
+                    <div class="restaurant-rating">
+                        <p class="rating">4.5 ★★★★★ 222 Google Reviews</p>
                     </div>
-            
                     <div class="tags">
                         <span class="tag">AED 150</span>
                         <span class="tag">Filipino Restaurant</span>
                     </div>
-            
                     <address class="address">
                         11 19A St Deira, Al Rigga, Dubai, near Union Metro Station
                     </address>
-            
-                    <button class="review-button">Leave A Review</button>
+                    <button class="default-btn-red review-button">Leave A Review</button>
                 </div>
             </div>
-            
-            </div>
         </section>
+
+        <!-- ==================== CONTACT US SECTION ==================== -->
         <section class="contact-us">
             <h1>Got More Questions?</h1>
             <p>We’d love to hear from you!</p>
-            <button>Contact Us</button>
+            <button class="default-btn-white">Contact Us</button>
         </section>
-        <footer>
-            <div class="footer-content">
-                <div class="footer-logo"><img src="Assets/Pita Logo.png" alt=""></div>
+    </main>
 
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo"><img src="Assets/Pita Logo.png" alt=""></div>
+            <div class="footer-links">
                 <div class="list-1">
                     <ul>
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about us.html">About Us</a></li>
-                      <li><a href="services.html">Services</a></li>
-                      <li><a href="contact us.html">Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about us.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact us.html">Contact Us</a></li>
                     </ul>
-                  </div>              
-                <div class="list2">
+                </div>
+                <div class="list-2">
                     <ul>
                         <li><a href="">WhatsApp</a></li>
                         <li><a href="">E-Mail</a></li>
@@ -217,7 +232,7 @@
                         <li><a href="">Instagram</a></li>
                     </ul>
                 </div>
-                <div class="list3">
+                <div class="list-3">
                     <ul>
                         <li><a href="">Our Newsletter</a></li>
                         <li><a href="">Loyalty Program</a></li>
@@ -225,16 +240,13 @@
                     </ul>
                 </div>
             </div>
-            
-            <div class="footer-bottom">
-                <div class="copyright-info">
-                    <li><a href="">&copy; 2024 Rythimize. All rights reserved.</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Terms and Condition</a></li>
-                    
-                </div>                
-            </div>
-        </footer>
-    </main>
+        </div>
+        <br>
+        <div class="footer-bottom">
+            <li>&copy; 2025 Pita Restaurants</li>
+            <li>Privacy Policy</li>
+            <li>Terms and Condition</li>
+        </div>
+    </footer>
 </body>
 </html>

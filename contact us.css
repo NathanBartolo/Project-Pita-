@@ -1,66 +1,45 @@
-.contact-us-container {
-    display: flex;
-    margin-top: 50px;
-}
+/* ===================================================
+Contact Us Form
+=================================================== */
 .contact-us-form {
-    background-color: #B1261F;
-    padding: 50px;
-    width: 797px;
-    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 50px;
+    margin-bottom: 150px;
+    align-items: center;
+}
+
+.form-box {
+    width: 100%;
+    padding: 50px 120px 50px 100px;
+    background-color: var(--dark-red);
     border-radius: 40px 0 0 40px;
-    align-content: center;
+    text-align: left;
 }
 
-.contact-us-form input {
-    width: 100%; /* Make input full width */
-    border: none;
-    border-bottom: 0.5px solid #FFFFF3;
-    background: transparent;
+.form-box input {
+    width: 100%;
+    padding: 20px 0;
     margin-bottom: 35px;
-    padding: 20px 0; /* Left/right padding removed so line hits edges */
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid var(--white);
+    color: var(--white);
     font-size: 16px;
-    color: #fffff3;
+    background: transparent;
     outline: none;
-    transition: border-color 0.3s ease;
-    box-sizing: border-box; /* Makes padding behave properly */
 }
 
-.contact-us-form input::placeholder {
-    color: #FFFFF3;
-    opacity: 1; 
+.form-box input::placeholder {
+    color: var(--white);
+    opacity: 0.8;
 }
 
 .send-btn {
-    background: #FFFFF3;
-    color: #B1261F;
-    border: none;
-    padding: 0.8rem 50px;
-    border-radius: 104px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-    white-space: nowrap;
-    font-weight: bold;
-    margin-top: 30px;   
-    font-size: 20px;
+    padding: 15px 50px;
 }
 
-
-
-.contact-us-title{
-    padding: 50px;
-    margin: 0 auto;
-    width: 50%;
-}
-
-.contact-us-title h1 {
-    color: #B1261F;
-    font-weight: bold;
-    font-size: 50px;
-    margin: 20px 0;
-    margin-bottom: 25px;
-}
-
-.contact-us-title p {
-    font-size: 20px;
-    line-height: 30px;
+.contact-us-title {
+    padding-left: 120px;
+    text-align: justify;
 }
