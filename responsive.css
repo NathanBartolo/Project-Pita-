@@ -1,0 +1,249 @@
+/* ===================================================
+Responsive Styling (Small Laptop & Large Tablet)
+=================================================== */
+@media (min-width: 950px) and (max-width:1200px) {
+
+    /* ===== Typography =====*/
+    h1 {
+        font-size: 40px;
+    }
+    
+    .banner-container h1 {
+        font-size: 60px;
+    }
+    
+}
+
+/* ===================================================
+Responsive Styling (Tablet)
+=================================================== */
+@media (min-width: 600px) and (max-width:949px) {
+
+    body, html {
+        background-color: pink; /* placeholder purposes */
+    }
+
+}
+
+/* ===================================================
+Responsive Styling (Mobile)
+=================================================== */
+@media (max-width:599px) {
+
+    /* ===== Typography =====*/
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    button {
+        font-size: 10px;
+    }
+
+    .banner-container h1 {
+        font-size: 30px;
+    }
+
+    /* ===== Header & Nvigation =====*/
+    nav {
+        display: none;
+    }
+
+    .logo {
+        width: 90px;
+        height: 40px;
+        margin: 0 auto;
+    }
+
+    /* ===== Layout Containers =====*/
+    .banner-container {
+        max-height: 400px;
+        padding: 0 20px;
+    }
+
+    .cta-box,
+    .cater-box {
+        bottom: 30px;
+        max-width: 90%;
+    }
+
+    .hero, 
+    .gallery, 
+    .cater, 
+    .reviews,
+    .faq,
+    .location,
+    .our-story {
+        margin-bottom: 100px;
+        margin: 0px 20px 100px 20px;
+    }
+
+    /* ===== Menu Section =====*/
+    .menu {
+        margin: 0 0 150px;
+        margin-bottom: 100px;
+        padding: 0 10px;
+    }
+
+    .menu-item-box {
+        min-width: 180px;
+    }
+
+    .dish-name {
+        font-size: 16px;
+    }
+
+    .dish-price {
+        font-size: 14px;
+    }
+
+    /* ===== Gallery Section =====*/
+    .gallery-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .row1,
+    .row2,
+    .row3 {
+        display: contents; 
+        margin-bottom: 0;
+    }
+
+    .images {
+        width: 100%;
+        height: 200px;
+    }
+
+    #image-nine {
+        display: none;
+    }
+
+    /* ===== Reviews Section =====*/
+    .review-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-box {
+        margin: 10px 0 0;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .column-one {
+        margin-top: 0;
+    }
+
+    .review-person {
+        font-size: 20px;
+    }
+    
+    .review-rating,
+    .review-label {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    
+    .review-text {
+        font-size: 12px;
+    }
+
+    /* ===== FAQ Section =====*/
+    .faq {
+        padding: 0;
+    }
+
+    .faq-questions h3 {
+        font-size: 15px;
+    }
+
+    /* ===== Order Section =====*/
+    .order {
+        padding: 0 20px;
+        max-width: 100%;
+    }
+
+    .order-box {
+        padding: 50px 0;
+    }
+
+    /* ===== Location Section =====*/
+    .location-box {
+        display: contents;
+        
+    }
+
+    .restaurant-info {
+        margin-top: 15px;
+    }
+
+    .map-placeholder {
+        height: 200px;
+    }
+
+    .restaurant-name {
+        font-size: 25px;
+    }
+
+    .tag {
+        font-size: 15px;
+    }
+
+    .address {
+        margin-top: 25px;
+        font-size: 20px;
+    }
+
+    .review-button {
+        max-width: fit-content;
+    }
+
+
+    /* ===== Contact Us Section =====*/
+    .contact-us {
+        padding: 100px 20px;
+    }
+
+
+    /* ===== Footer Section =====*/
+    footer {
+        margin-bottom: 50px;
+        margin: 0px 20px 100px 20px;
+        padding: 40px;
+        font-size: 10px;
+    }
+
+    .footer-content {
+        display: contents;
+    }
+
+    .footer-logo {
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .footer-links {
+        margin: 10px 0 0;
+    }
+
+    .footer-links li {
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+}

@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="about us.css" />
+    <link rel="stylesheet" href="about-us.css" />
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -19,9 +20,9 @@
             <nav>
                 <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="about-us.html" class="active">About Us</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="contact us.html">Contact Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
                 </ul>
                 <button class="default-btn-red order-btn"><a href="menu.html">Order Now</a></button>
             </nav>
@@ -48,18 +49,18 @@
             </div>
 
             <section class="story-text-container">
-                <div>
+                <div class="story-text">
                     <h2>Behind The Success</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt interdum molestie. Suspendisse posuere dolor at elementum dapibus. Proin ligula enim, facilisis at velit et, convallis suscipit erat. Integer turpis leo, pulvinar a fringilla vel, vestibulum at ex. Nullam mattis mollis sapien, a auctor ante egestas id
                     </p>
                 </div>
-                <div class="placeholder"></div>
+                <div class="placeholder story-image"></div>
             </section>
 
             <section class="right-align story-text-container">
-                <div class="placeholder"></div>
-                <div>
+                <div class="placeholder story-image"></div>
+                <div class="story-text">
                     <h2>The Experience</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt interdum molestie. Suspendisse posuere dolor at elementum dapibus. Proin ligula enim, facilisis at velit et, convallis suscipit erat. Integer turpis leo, pulvinar a fringilla vel, vestibulum at ex. Nullam mattis mollis sapien, a auctor ante egestas id
@@ -68,25 +69,14 @@
             </section>
 
             <section class="story-text-container">
-                <div>
+                <div class="story-text">
                     <h2>A Taste Of Home</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt interdum molestie. Suspendisse posuere dolor at elementum dapibus. Proin ligula enim, facilisis at velit et, convallis suscipit erat. Integer turpis leo, pulvinar a fringilla vel, vestibulum at ex. Nullam mattis mollis sapien, a auctor ante egestas id
                     </p>
                 </div>
-                <div class="placeholder"></div>
+                <div class="placeholder story-image"></div>
             </section>
-        </section>
-
-        <!-- ==================== ORDER SECTION ==================== -->
-        <section class="order">
-            <div class="order-box">
-                <h2>
-                    Order Directly from our website or via our WhatsApp to save money on fees, get faster service, and support local businesses.
-                </h2>
-                <button class="default-btn-white whatsapp-btn">WhatsApp</button>
-                <button class="order-online-btn">Order Online</button>
-            </div>
         </section>
 
         <!-- ==================== GALLERY ==================== -->
@@ -99,19 +89,19 @@
             </div>
             <div class="gallery-container">
                 <div class="row1">
-                    <div class="images"></div>
-                    <div class="images"></div>
-                    <div class="images"></div>
+                    <div class="images" id="image-one"></div>
+                    <div class="images" id="image-two"></div>
+                    <div class="images" id="image-three"></div>
                 </div>
                 <div class="row2">
-                    <div class="images"></div>
-                    <div class="images"></div>
-                    <div class="images"></div>
+                    <div class="images" id="image-four"></div>
+                    <div class="images" id="image-five"></div>
+                    <div class="images" id="image-six"></div>
                 </div>
                 <div class="row3">
-                    <div class="images"></div>
-                    <div class="images"></div>
-                    <div class="images"></div>
+                    <div class="images" id="image-seven"></div>
+                    <div class="images" id="image-eight"></div>
+                    <div class="images" id="image-nine"></div>
                 </div>
             </div>
             <button class="default-btn-red learn-more-btn">Learn More About Our Story</button>
@@ -172,7 +162,7 @@
             </div>
         </div>
 
-        <br />
+        <hr>
 
         <div class="footer-bottom">
             <li>&copy; 2025 Pita Restaurants</li>
@@ -180,5 +170,6 @@
             <li>Terms and Condition</li>
         </div>
     </footer>
+    
 </body>
 </html>

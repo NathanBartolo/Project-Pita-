@@ -1,0 +1,88 @@
+/* ===================================================
+Contact Us Form
+=================================================== */
+.contact-us-form {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 50px;
+    margin-bottom: 150px;
+    align-items: center;
+}
+
+.form-box {
+    width: 100%;
+    padding: 50px 120px 50px 100px;
+    background-color: var(--dark-red);
+    border-radius: 40px 0 0 40px;
+    text-align: left;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 35px;
+    background: transparent;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid var(--white);
+    color: var(--white);
+    font-size: 16px;
+}
+
+.form-box input::placeholder {
+    color: var(--white);
+    opacity: 0.8;
+}
+
+.send-btn {
+    padding: 15px 50px;
+}
+
+.contact-us-title {
+    padding-left: 120px;
+    text-align: justify;
+}
+
+/* ===================================================
+Responsive Styling (Tablet)
+=================================================== */
+/*@media (min-width: 600px) and (max-width:949px) {
+
+    placeholder
+
+}*/
+
+/* ===================================================
+Responsive Styling (Mobile)
+=================================================== */
+@media (max-width:600px) {
+
+    .contact-us-form {
+        display: contents;
+    }
+
+    .contact-us-title {
+        margin: 0 20px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .form-box {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        padding: 40px 20px;
+        border-radius: 40px;
+    }
+
+    .form-box input {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .send-btn {
+        padding: 15px 30px;
+    }
+
+}

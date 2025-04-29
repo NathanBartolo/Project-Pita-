@@ -1,0 +1,98 @@
+/* ===================================================
+About Us Section
+=================================================== */
+.our-story {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.story-text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    text-align: justify;
+}
+
+.placeholder {
+    width: 100%;
+    height: 350px;
+    background-color: var(--dark-red);
+    border-radius: 40px;
+}
+
+.story-text-container h2 {
+    color: #B1261F;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.right-align h2 {
+    text-align: right;
+}
+
+/* ===================================================
+Responsive Styling (Small Laptop & Large Tablet)
+=================================================== */
+@media (min-width: 950px) and (max-width:1200px) {
+
+    .story-text-container h2 {
+        font-size: 35px;
+    }
+    
+}
+
+/* ===================================================
+Responsive Styling (Tablet)
+=================================================== */
+/*@media (min-width: 600px) and (max-width:949px) {
+
+    placeholder
+
+}*/
+
+
+/* ===================================================
+Responsive Styling (Mobile)
+=================================================== */
+@media (max-width:600px) {
+
+    .story-text-container {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .right-align h2 {
+        text-align: center;
+    }
+
+    .story-text-container h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .placeholder {
+        height: 250px;
+    }
+
+    .our-story {
+        gap: 20px;
+    }
+
+    .our-story p {
+        margin-bottom: 0;
+    }
+    
+    .story-image {
+        order: 1;
+    }
+
+    .story-text {
+        order: 2;
+    }
+
+}

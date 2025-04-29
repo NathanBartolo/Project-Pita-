@@ -79,6 +79,7 @@ Layout Containers
 .cater-box {
     position: absolute;
     bottom: 75px;
+    max-width: 70%;
 }
 
 .hero, 
@@ -177,7 +178,12 @@ nav {
 }
 
 .nav-menu a:hover {
-    color: var(--light-red);
+    border-bottom: 2px solid var(--dark-red);
+}
+
+.nav-menu a.active {
+    font-weight: bold;
+    border-bottom: 2px solid var(--dark-red);
 }
 
 .order-btn a {
@@ -190,16 +196,6 @@ nav {
     background-color: var(--light-red);
 }
 
-/* ===================================================
-Hero Section
-=================================================== */
-.cta-box {
-    max-width: 50%;
-}
-
-.cater-box {
-    max-width: 55%;
-}
 
 /* ===================================================
 Menu Section
@@ -297,7 +293,7 @@ Review Section
 }
 
 .review-box {
-    margin: 12px;
+    margin: 15px;
     padding: 40px;
     max-width: 500px;
     background-color: var(--dark-red);
@@ -306,7 +302,7 @@ Review Section
     text-align: left;
 }
 
-.column1 {
+.column-one {
     margin-top: 70px;
 }
 
@@ -396,7 +392,7 @@ Location Section
     margin-bottom: 0;
 }
 
-address {
+.address {
     margin-top: auto;
     font-size: 25px;
 }
@@ -459,4 +455,11 @@ footer li {
 footer li a {
     text-decoration: none;
     color: var(--white);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--white);
+    margin: 20px 0;
 }

@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -18,10 +19,10 @@
             <img src="Assets/Pita Logo.png" alt="Restaurant Logo" class="logo">
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="contact us.html">Contact Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
                 </ul>
                 <button class="default-btn-red order-btn"><a href="menu.html">Order Now</a></button>
             </nav>
@@ -87,19 +88,19 @@
             </div>
             <div class="gallery-container">
                 <div class="row1">
-                    <div class="images"></div>
-                    <div class="images"></div>
-                    <div class="images"></div>
+                    <div class="images" id="image-one"></div>
+                    <div class="images" id="image-two"></div>
+                    <div class="images" id="image-three"></div>
                 </div>
                 <div class="row2">
-                    <div class="images"></div>
-                    <div class="images"></div>
-                    <div class="images"></div>
+                    <div class="images" id="image-four"></div>
+                    <div class="images" id="image-five"></div>
+                    <div class="images" id="image-six"></div>
                 </div>
                 <div class="row3">
-                    <div class="images"></div>
-                    <div class="images"></div>
-                    <div class="images"></div>
+                    <div class="images" id="image-seven"></div>
+                    <div class="images" id="image-eight"></div>
+                    <div class="images" id="image-nine"></div>
                 </div>
             </div>
             <button class="default-btn-red learn-more-btn">Learn More About Our Story</button>
@@ -121,7 +122,7 @@
                 <p>Over 200+ happy and fulfilled customers have left our doors satisfied and ready to order for more.</p>
             </div>
             <div class="review-container">
-                <div class="column1">
+                <div class="column-one">
                     <div class="review-box">
                         <h2 class="review-person">Mariely Melencion</h2>
                         <p class="rating">5.0 ★★★★★</p>
@@ -135,7 +136,7 @@
                         <p class="review-text">We love their cheesecake! So delicious, beats the cakes in hotel buffets. Very fluffy, yummy and fresh! Very good addition to any occasion or even when you are just craving for it.</p>
                     </div>
                 </div>
-                <div class="column2">
+                <div class="column-one">
                     <div class="review-box">
                         <h2 class="review-person">Marie Santiago</h2>
                         <p class="rating">5.0 ★★★★★</p>
@@ -241,12 +242,13 @@
                 </div>
             </div>
         </div>
-        <br>
+        <hr>
         <div class="footer-bottom">
             <li>&copy; 2025 Pita Restaurants</li>
             <li>Privacy Policy</li>
             <li>Terms and Condition</li>
         </div>
     </footer>
+    
 </body>
 </html>
