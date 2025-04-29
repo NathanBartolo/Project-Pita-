@@ -1,0 +1,71 @@
+.menu-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* prevent wrapping to the next line */
+    gap: 20px;
+    overflow-x: auto; /* enables horizontal scrolling if cards overflow */
+    padding: 20px 0;
+  }
+  
+  
+.menu-title2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu-title2 h1{
+    color: #B1261F;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.full-menu-btn2 {
+    background: #B1261F;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 104px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 1rem;
+    white-space: nowrap;
+}
+
+.menu-box2 {
+    min-width: 300px; /* fixed width so multiple can sit side by side */
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+    flex-shrink: 0; /* prevents shrinking when space is tight */
+  }
+  
+  .menu-img-placeholder2 {
+    width: 100%;
+    height: 150px;
+    background-color: #B1261F;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .dish-name2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+  
+  .dish-price2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 5px 0;
+    color: #91989C;
+    margin-left: 15px;
+  }
+  
+  .dish-rating2 {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
