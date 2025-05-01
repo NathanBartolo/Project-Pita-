@@ -47,11 +47,32 @@ Contact Us Form
 /* ===================================================
 Responsive Styling (Tablet)
 =================================================== */
-/*@media (min-width: 600px) and (max-width:949px) {
+@media (min-width: 600px) and (max-width:949px) {
 
-    placeholder
+    .contact-us-form {
+        gap: 30px;
+        margin-bottom: 100px;
+    }
+    
+    .contact-us-title {
+        padding-left: 50px;
+    }
+    
+    .form-box {
+        padding: 40px 60px 40px 50px;
+    }
+    
+    .form-box input {
+        padding: 15px 0;
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+    
+    .send-btn {
+        padding: 12px 40px;
+    }
 
-}*/
+}
 
 /* ===================================================
 Responsive Styling (Mobile)

@@ -47,11 +47,38 @@ Responsive Styling (Small Laptop & Large Tablet)
 /* ===================================================
 Responsive Styling (Tablet)
 =================================================== */
-/*@media (min-width: 600px) and (max-width:949px) {
+@media (min-width: 600px) and (max-width:949px) {
 
-    placeholder
+    /* ===== Our Story Section =====*/
+    .our-story {
+        gap: 60px;
+    }
 
-}*/
+    .story-text-container {
+        gap: 30px;
+    }
+
+    .story-text-container h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .right-align h2 {
+        text-align: right;
+    }
+
+    .placeholder {
+        height: 280px;
+        border-radius: 30px;
+    }
+
+    /* For image and text alternating pattern */
+    .story-text p {
+        font-size: 16px;
+        line-height: 1.5;
+    }    
+}
 
 
 /* ===================================================

@@ -97,6 +97,7 @@ Layout Containers
 /* ===================================================
 Buttons
 =================================================== */
+nav button,
 .default-btn-red,
 .default-btn-white,
 .order-online-btn {
@@ -195,6 +196,11 @@ nav {
 .order-btn a:hover {
     background-color: var(--light-red);
 }
+
+nav button {
+    display: none;
+}
+
 
 
 /* ===================================================

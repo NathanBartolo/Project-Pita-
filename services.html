@@ -16,15 +16,25 @@
     <header>
         <div class="header-container">
             <img src="Assets/Pita Logo.png" alt="Restaurant Logo" class="logo">
+            <!-- Hamburger Icon (only visible on mobile via CSS) -->
+            <button class="mobile-menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
             <nav>
                 <ul class="nav-menu">
+                    <button class="close-menu">&times;</button>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about-us.html">About Us</a></li>
                     <li><a href="services.html" class="active">Services</a></li>
                     <li><a href="contact-us.html">Contact Us</a></li>
+                    <button class="default-btn-red order-btn"><a href="menu.html">Order Now</a></button>
                 </ul>
-                <button class="default-btn-red order-btn"><a href="menu.html">Order Now</a></button>
             </nav>
+            <button class="default-btn-red order-btn" id="order-btn-desktop"><a href="menu.html">Order Now</a></button>
+            
         </div>
     </header>
 
@@ -170,6 +180,6 @@
             <li>Terms and Condition</li>              
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
