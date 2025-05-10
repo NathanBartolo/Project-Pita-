@@ -13,14 +13,19 @@
     margin: 0 auto;
 }
 
+
 .menu-title2 h1{
     color: #B1261F;
     font-weight: bold;
     font-size: 50px;
     margin: 20px 0;
+   
 }
 
+
+
 .full-menu-btn2 {
+  
     background: #B1261F;
     color: white;
     border: none;
@@ -30,6 +35,8 @@
     transition: background 0.3s ease;
     margin-left: 1rem;
     white-space: nowrap;
+    
+
 }
 
 .menu-box2 {
@@ -69,3 +76,4 @@
     margin-left: 15px;
     margin-bottom: 15px;
   }
+  

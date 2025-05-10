@@ -141,6 +141,7 @@ nav button,
     text-decoration: underline;
 }
 
+
 /* ===================================================
 Header & Navigation
 =================================================== */
@@ -203,9 +204,30 @@ nav button {
 
 
 
+
 /* ===================================================
 Menu Section
 =================================================== */
+
+.default-btn-red.full-menu-btn {
+    background-color: #D32F2F; /* Red background */
+    color: #FFFFFF; /* White text */
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+}
+
+.default-btn-red.full-menu-btn a {
+    color: #FFFFFF; /* Ensure link text is white */
+    text-decoration: none;
+}
+
+.default-btn-red.full-menu-btn:hover {
+    background-color: #B71C1C; /* Darker red on hover */
+}
+
 .menu-items-container {
     display: flex;
     flex-direction: row;
@@ -223,6 +245,15 @@ Menu Section
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: left;
 }
+
+.menu-items-list {
+    display: flex;
+    flex-wrap: wrap;      /* Allow items to wrap */
+    gap: 20px;
+    padding: 20px 0;
+    overflow: hidden;    
+}
+
 
 .menu-img-placeholder {
     width: 100%;
@@ -250,6 +281,8 @@ Menu Section
     margin-bottom: 15px;
     font-size: 12px;
 }
+
+.gallery-container
 
 /* ===================================================
 Gallery Section
@@ -289,6 +322,26 @@ Gallery Section
     flex-grow: 1; /* makes the middle item wider */
     flex-basis: 0; /* ensures it can grow */
 }
+
+.default-btn-red.learn-more-btn {
+    background-color: #D32F2F; /* Red background */
+    color: #FFFFFF; /* White text */
+    border: none;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    margin: 0 auto 10px;
+}
+
+.default-btn-red.learn-more-btn a {
+    color: #FFFFFF; /* Ensure link text is white */
+    text-decoration: none;
+}
+
+.default-btn-red.learn-more-btn:hover {
+    background-color: #B71C1C; /* Darker red on hover */
+}
+
 
 /* ===================================================
 Review Section

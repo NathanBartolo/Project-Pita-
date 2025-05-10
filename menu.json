@@ -1,0 +1,164 @@
+{
+    "items": [
+        {
+            "id": "item-1",
+            "name": "Chicken Sisig",
+            "price": 50.00,
+            "rating": 5,
+            "category": "Main",
+            "featured": true
+        },
+        {
+            "id": "item-2",
+            "name": "Beef Kare-Kare",
+            "price": 65.00,
+            "rating": 4.5,
+            "category": "Main",
+            "featured": false
+        },
+        {
+            "id": "item-3",
+            "name": "Halo-Halo",
+            "price": 30.00,
+            "rating": 5,
+            "category": "Dessert",
+            "featured": true
+        },
+        {
+            "id": "item-4",
+            "name": "Cheesecake",
+            "price": 35.00,
+            "rating": 4.7,
+            "category": "Dessert",
+            "featured": false
+        },
+        {
+            "id": "item-5",
+            "name": "Pork Adobo",
+            "price": 55.00,
+            "rating": 4.9,
+            "category": "Main",
+            "featured": true
+        },
+        {
+            "id": "item-6",
+            "name": "Lechon Kawali",
+            "price": 70.00,
+            "rating": 4.8,
+            "category": "Main",
+            "featured": false
+        },
+        {
+            "id": "item-7",
+            "name": "Pancit Canton",
+            "price": 45.00,
+            "rating": 4.6,
+            "category": "Main",
+            "featured": false
+        },
+        {
+            "id": "item-8",
+            "name": "Buko Pandan",
+            "price": 25.00,
+            "rating": 4.9,
+            "category": "Dessert",
+            "featured": true
+        },
+        {
+            "id": "item-9",
+            "name": "Lumpiang Shanghai",
+            "price": 35.00,
+            "rating": 4.7,
+            "category": "Appetizer",
+            "featured": false
+        },
+        {
+            "id": "item-10",
+            "name": "Beef Tapa",
+            "price": 60.00,
+            "rating": 4.5,
+            "category": "Main",
+            "featured": false
+        },
+        {
+            "id": "item-11",
+            "name": "Sinigang na Baboy",
+            "price": 55.00,
+            "rating": 5,
+            "category": "Main",
+            "featured": true
+        },
+        {
+            "id": "item-12",
+            "name": "Bibingka",
+            "price": 30.00,
+            "rating": 4.8,
+            "category": "Dessert",
+            "featured": false
+        },
+        {
+            "id": "item-13",
+            "name": "Bangus Sisig",
+            "price": 50.00,
+            "rating": 4.9,
+            "category": "Main",
+            "featured": true
+        },
+        {
+            "id": "item-14",
+            "name": "Kutsinta",
+            "price": 20.00,
+            "rating": 4.3,
+            "category": "Dessert",
+            "featured": false
+        },
+        {
+            "id": "item-15",
+            "name": "Dinuguan",
+            "price": 40.00,
+            "rating": 4.4,
+            "category": "Main",
+            "featured": false
+        },
+        {
+            "id": "item-16",
+            "name": "Taho",
+            "price": 15.00,
+            "rating": 4.6,
+            "category": "Dessert",
+            "featured": false
+        },
+        {
+            "id": "item-17",
+            "name": "Palabok",
+            "price": 50.00,
+            "rating": 4.7,
+            "category": "Main",
+            "featured": false
+        },
+        {
+            "id": "item-18",
+            "name": "Sapin-Sapin",
+            "price": 25.00,
+            "rating": 4.8,
+            "category": "Dessert",
+            "featured": true
+        },
+        {
+            "id": "item-19",
+            "name": "Bistek Tagalog",
+            "price": 55.00,
+            "rating": 4.7,
+            "category": "Main",
+            "featured": false
+        },
+        {
+            "id": "item-20",
+            "name": "Turon",
+            "price": 20.00,
+            "rating": 4.9,
+            "category": "Dessert",
+            "featured": false
+        }
+    ]
+}
