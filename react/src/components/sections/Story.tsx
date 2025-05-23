@@ -39,7 +39,7 @@ export const Story = () => {
               "For every OFW missing a taste of the Philippines, Pita serves as your second kitchen. Our menu is filled with comforting classics that bring back memories of Sunday lunches, fiestas, and family gatherings. Each bite tells a story — your story, our story, the Filipino story."
             }
             img={
-              "/gallery/story5.jpg"
+              "/gallery/beef_tapa.jpg"
             }
             alt={"A Taste of Home"}
             textOrder={"order-last md:order-first"}
