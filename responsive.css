@@ -282,7 +282,7 @@ Responsive Styling (Mobile)
         cursor: pointer;
         position: absolute;
         left: 20px; /* adjust as needed */
-        top: 6%;
+        top: 39px;
         transform: translateY(-50%);
     }
     
@@ -306,7 +306,7 @@ Responsive Styling (Mobile)
         width: 70vw;
         height: 100vh;
         background-color: var(--beige);
-        padding: 40px 20px;
+        padding: 15px 20px;
         z-index: 1000;
     }
     
@@ -318,8 +318,7 @@ Responsive Styling (Mobile)
     .close-menu {
         background: none;
         border: none;
-        font-size: 28px;
-        font-weight: bold;
+        font-size: 40px;
         color: var(--dark-red);
         cursor: pointer;
         text-align: left;

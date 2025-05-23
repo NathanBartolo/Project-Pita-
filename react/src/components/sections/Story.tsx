@@ -17,7 +17,7 @@ export const Story = () => {
               "Behind every dish is a team of passionate Filipinos who understand the value of good food and even better company. From our chefs to our service crew, each member of the Pita family is dedicated to creating a dining experience that goes beyond just filling your stomach — it fills your soul."
             }
             img={
-              "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+              "/gallery/story1.JPG"
             }
             alt={"Behind the Success"}
             textOrder={"order-last md:order-first"}
@@ -28,7 +28,7 @@ export const Story = () => {
               "Dining at Pita is more than just a meal — it's a celebration of Filipino culture. The moment you walk in, you're welcomed with the familiar scent of traditional dishes and the cheerful chatter that feels like home. Whether you're dining in or ordering out, you’ll experience the warm, genuine hospitality that defines the Filipino spirit."
             }
             img={
-              "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+              "/gallery/story2.JPG"
             }
             alt={"Behind the Success"}
             textOrder={"order-last"}
@@ -39,7 +39,7 @@ export const Story = () => {
               "For every OFW missing a taste of the Philippines, Pita serves as your second kitchen. Our menu is filled with comforting classics that bring back memories of Sunday lunches, fiestas, and family gatherings. Each bite tells a story — your story, our story, the Filipino story."
             }
             img={
-              "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+              "/gallery/story5.jpg"
             }
             alt={"A Taste of Home"}
             textOrder={"order-last md:order-first"}

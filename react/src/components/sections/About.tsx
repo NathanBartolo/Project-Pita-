@@ -4,24 +4,24 @@ import { TitleDesc } from "../shared/TitleDesc";
 export const About = () => {
   const galleryImages = [
     [
-      "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg",
+      "/gallery/food1.JPG",
+      "/food/taho.jpg",
+      "/gallery/food2.JPG",
     ],
     [
-      "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg",
+      "/gallery/small1.webp",
+      "/gallery/crop5.jpg",
+      "/gallery/crop1.jpg",
     ],
     [
-      "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg",
+      "/gallery/crop6.jpg",
+      "/gallery/crop7.jpg",
+      "/gallery/small2.jpg",
     ],
     [
-      "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg",
-      "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg",
+      "/gallery/crop9.JPG",
+      "/gallery/small3.webp",
+      "/gallery/crop12.jpg",
     ],
   ];
   return (
@@ -35,18 +35,14 @@ export const About = () => {
             }
           />
           {/* dynamic gallery */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pb-4">
-            {galleryImages.map((column, colIdx) => (
-              <div key={colIdx} className="grid gap-4">
-                {column.map((src, imgIdx) => (
-                  <div key={imgIdx}>
+          <div className="columns-2 md:columns-4 gap-4 mb-10">
+            {galleryImages.flat().map((src, idx) => (
+              <div key={idx} className="mb-4 break-inside-avoid">
                     <img
-                      className="h-auto max-w-full rounded-lg"
+                      className="w-full rounded-lg "
                       src={src}
-                      alt={`Gallery Image ${colIdx}-${imgIdx}`}
+                      alt={`Gallery Image ${idx}`}
                     />
-                  </div>
-                ))}
               </div>
             ))}
           </div>
