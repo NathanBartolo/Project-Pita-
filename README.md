@@ -87,8 +87,6 @@ This document provides a comprehensive overview of the development process, mile
 └── styles
 └── globals.css
 
-text
-
 ---
 
 ## Installation & Setup
